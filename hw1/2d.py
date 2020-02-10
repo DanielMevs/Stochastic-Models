@@ -18,5 +18,5 @@ while ans == 'y' or ans == 'Y':
     print('f(i) for points i=1 to i=n: ', aList)
     print('\nThe above is used to illustrate just one way to get the values for f(i). '
           'However for the total values we must use the equation 2^n; in our case: ', n*n)
-    ans = input('Would you like to test another value of n?(y or n): ')
     
+    print('all possible ways to arrange binary values in a list of size 4 (2^4): ', pt.brute_cartesian()) 
